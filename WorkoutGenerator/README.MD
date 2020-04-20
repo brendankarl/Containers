@@ -10,5 +10,6 @@ To run this sample you'll need to copy the **WorkoutGenerator** folder and then 
 
 - `docker run -d -p 80:80 workoutgenerator`
 
-Here is this super-advanced web app in action
+Here is this super-advanced web app in action!
+
 ![Workout Generator in Action!](https://raw.githubusercontent.com/brendankarl/Containers/master/WorkoutGenerator/WorkoutGenerator.png)
