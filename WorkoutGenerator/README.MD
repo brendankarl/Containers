@@ -4,7 +4,7 @@ This container runs Ubuntu and uses [Flask](https://flask.palletsprojects.com/en
 
 To run this container you will need [Docker](https://www.docker.com/) installed.
 
-To run this sample you'll need to copy the **WorkoutGenerator** folder and then run the following Docker commands from within the WorkoutGenerator directory, this will run the Container locally, listening on port 80 for requests. WorkoutGenerator can be accessed via http://localhost or http://127.0.0.1.
+To get started copy the **WorkoutGenerator** folder and then run the following Docker commands from within the WorkoutGenerator directory, this will run the Container locally, listening on port 80 for requests. WorkoutGenerator can be accessed via http://localhost or http://127.0.0.1.
 
 - `docker build -t workoutgenerator ./`
 
