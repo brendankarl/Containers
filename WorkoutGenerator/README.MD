@@ -15,9 +15,9 @@ Here is this super-advanced web app in action!
 ![Workout Generator in Action!](https://raw.githubusercontent.com/brendankarl/Containers/master/WorkoutGenerator/WorkoutGenerator.png)
 
 ## Removing the Container and Images Created ##
-To remove the Container and Images created above run the following commands
+To remove the Container and Images created above, run the following commands
 - `docker ps` to list the running Containers, take a note of the "CONTAINER ID" for the workoutgenerator container
 - `docker container stop (CONTAINER ID)` to stop the workoutgenerator Container
 - `docker rm (CONTAINER ID)` to remove the workoutgenerator Container
 - `docker rmi workoutgenerator` to remove the workoutgenerator Image
-- `docker rmi ubuntu` to remove the Ubuntu Image used by workoutgenerator (don't run this if you have any images that depend on the Ubuntu container).
+- `docker rmi ubuntu` to remove the Ubuntu Image used by workoutgenerator (don't run this if you have any containers that depend on the Ubuntu image).
