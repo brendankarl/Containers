@@ -15,7 +15,6 @@ def exerciseGenerator():
     exerciselist = []
     for i in range(0,int(howMany)):
         randomnumber = random.randint(0,(len(exercises)-1))
-        exerciseNum = i + 1
         exerciselist.append(exercises[randomnumber])
     return render_template("default.htm", len = len(exerciselist),exerciselist = exerciselist)
 
