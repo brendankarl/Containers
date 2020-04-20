@@ -16,7 +16,7 @@ Here is this super-advanced web app in action!
 
 ## Removing the Container and Images Created ##
 To remove the Container and Images created above, run the following commands:
-- `docker ps` to list the running Containers, take a note of the "CONTAINER ID" for the workoutgenerator container
+- `docker ps` to list the running Containers, take a note of the "CONTAINER ID" for the workoutgenerator Container
 - `docker container stop (CONTAINER ID)` to stop the workoutgenerator Container
 - `docker rm (CONTAINER ID)` to remove the workoutgenerator Container
 - `docker rmi workoutgenerator` to remove the workoutgenerator Image
