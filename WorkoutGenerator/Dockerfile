@@ -1,17 +1,15 @@
-From ubuntu:latest
+FROM baseImage ubuntu:latest
 
-Maintainer Brendan Griffin "brendankgriffin@hotmail.com"
-
-Run apt-get update -y && \
+RUN apt-get update -y && \
     apt-get install -y python-pip python-dev
 
-Copy ./requirements.txt /app/requirements.txt
+COPY ./requirements.txt /app/requirements.txt
 
-Workdir /app
+WORKDIR /app
 
-Run pip install -r requirements.txt
+RUN pip install -r requirements.txt
 
-Copy . /app
+COPY . /app
 
 ENTRYPOINT ["python"]
 CMD ["WorkoutGenerator.py"]
