@@ -10,10 +10,6 @@ To get started copy the **WorkoutGenerator** folder locally and then run the fol
 
 - `docker run -d -p 80:80 workoutgenerator`
 
-Here is this super-advanced web app in action!
-
-![Workout Generator in Action!](https://raw.githubusercontent.com/brendankarl/Containers/master/WorkoutGenerator/WorkoutGenerator.png)
-
 ## Removing the Container and Images Created ##
 To remove the Container and Images created above, run the following commands:
 - `docker ps` to list the running Containers, take a note of the "CONTAINER ID" for the workoutgenerator Container
